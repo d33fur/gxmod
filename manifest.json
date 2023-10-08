@@ -1,0 +1,55 @@
+{
+    "name": "d33f Theme",
+    "description": "d33f simple theme",
+    "developer":
+    {
+        "name": "d33f"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 85,
+                        "s": 100,
+                        "l": 72
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 64,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 112,
+                        "s": 80,
+                        "l": 44
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 32,
+                        "l": 16
+                    }
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
